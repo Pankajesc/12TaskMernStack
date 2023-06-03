@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Icon as List Marker Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    li::before {
+      content: "\f005";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      display: inline-block;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+</body>
+</html>
